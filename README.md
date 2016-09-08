@@ -1,1 +1,2 @@
 # Testmagic
+updates 1
