@@ -126,7 +126,7 @@ public class Unit implements IUnit {
 		this.ex = ex;			
 	}
 	
-	private void setCutoffs( float ps, float cr, float di, float hd, float ae) {
+	private void Setcutoffs( float ps, float cr, float di, float hd, float ae) {
 		if (ps < 0 || ps > 100 ||
 			cr < 0 || cr > 100 ||
 			di < 0 || di > 100 ||
