@@ -1,7 +1,12 @@
 package datamanagement;
 
 //import java.util.*;
+import java.util.ArrayList;
+import java.util.List;
+import java.util.HashSet;
 import java.io.*;
+
+import com.sun.xml.internal.fastinfoset.sax.Properties;
 
 public class AppProperties {
 	private static AppProperties self = null;
@@ -17,7 +22,7 @@ public class AppProperties {
 	private AppProperties() {
 		properties_ = new Properties();
 		try {
-			properties_.load(new FileInputStream("Properties.prop"));
+			(   properties_).Load (new FileInputStream("Properties.prop"));
 		} catch (IOException e) {
 			throw new RuntimeException("Could not read property file");
 		}
