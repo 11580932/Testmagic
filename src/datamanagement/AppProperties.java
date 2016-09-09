@@ -22,7 +22,7 @@ public class AppProperties {
 	private AppProperties() {
 		properties_ = new Properties();
 		try {
-			(   properties_).Load (new FileInputStream("Properties.prop"));
+			(     ( properties_).Load (new FileInputStream("Properties.prop"));
 		} catch (IOException e) {
 			throw new RuntimeException("Could not read property file");
 		}
