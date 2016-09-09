@@ -131,7 +131,7 @@ public class cgUI extends javax.swing.JFrame implements IUnitLister,
 
 		jLabel3.setText("Asg2:");
 
-		jLabel4.setText("Exam:");
+		jLabel4.setText("Exam scores:");
 
 		jTextField1.setEditable(false);
 		jTextField1.addKeyListener(new java.awt.event.KeyAdapter() {
@@ -218,7 +218,7 @@ public class cgUI extends javax.swing.JFrame implements IUnitLister,
 		jPanel4.setBorder(javax.swing.BorderFactory.createTitledBorder("Grade"));
 
 		jLabel5.setFont(new java.awt.Font("Tahoma", 0, 24)); // NOI18N
-		jLabel5.setForeground(new java.awt.Color(255, 0, 0));
+		jLabel5.setForeground(new java.awt.Color(255, 255, 255));
 		jLabel5.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
 		jLabel5.setText("grade");
 
