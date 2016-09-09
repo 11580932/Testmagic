@@ -3,6 +3,7 @@ package datamanagement;
 //import java.util.List;
 
 import java.util.List;
+
 import org.jdom.*;
 
  
@@ -22,7 +23,8 @@ private java.util.HashMap<Integer,StudentUnitRecordList> sr;
 IStudentUnitRecord ir = rm.get(studentID.toString()+unitCode);
 return ir != null ? ir : createStudentUnitRecord(studentID, unitCode);}
 
-    private IStudentUnitRecord createStudentUnitRecord( Integer uid, String sid ) {
+    @SuppressWarnings("unchecked")
+	private IStudentUnitRecord createStudentUnitRecord( Integer uid, String sid ) {
         IStudentUnitRecord ir;
         for (Element el : (List<Element>) XMLManager.getXML().getDocument().getRootElement().getChild("studentUnitRecordTable").getChildren("record")) {
         if (uid.toString().equals(el.getAttributeValue("sid")) && sid.equals(el.getAttributeValue("uid"))) {
