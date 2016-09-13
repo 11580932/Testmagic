@@ -1,6 +1,7 @@
 package datamanagement;
 
 import org.jdom.*;
+
 import java.util.List;
 
 public class StudentManager {
@@ -27,6 +28,7 @@ public class StudentManager {
 		return is != null ? is : createStudent(id);
 	}
 
+	@SuppressWarnings("unchecked")
 	private Element getStudentElement(Integer id) {
 		for (Element el : (List<Element>) XMLManager.getXML().getDocument()
 				.getRootElement().getChild("studentTable")
