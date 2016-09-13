@@ -295,7 +295,7 @@ public class cgUI extends javax.swing.JFrame implements IUnitLister,
 					.addPreferredGap(ComponentPlacement.RELATED)
 					.addComponent(jButton3)
 					.addGap(11)
-					.addComponent(jlabel6, GroupLayout.PREFERRED_SIZE, 30, GroupLayout.PREFERRED_SIZE)
+					.addComponent(jlabel6, GroupLayout.PREFERRED_SIZE, 34, GroupLayout.PREFERRED_SIZE)
 					.addContainerGap())
 		);
 		getContentPane().setLayout(layout);
