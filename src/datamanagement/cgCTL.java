@@ -85,7 +85,7 @@ public class cgCTL {
 
 	public void saveGrade(float asg1, float asg2, float exam) {
 
-		IUnit u = UnitManager.UM().getUnit(cuc);
+		IUnit U = UnitManager.UM().getUnit(cuc);
 		IStudent s = StudentManager.get().getStudent(currentStudentID);
 
 		IStudentUnitRecord r = s.getUnitRecord(cuc);
