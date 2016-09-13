@@ -183,7 +183,7 @@ public class cgUI extends javax.swing.JFrame implements IUnitLister,
 							.addContainerGap()
 							.addComponent(jLabel2)
 							.addPreferredGap(ComponentPlacement.RELATED)
-							.addComponent(jTextField1, GroupLayout.PREFERRED_SIZE, 59, GroupLayout.PREFERRED_SIZE)
+							.addComponent(jTextField1, GroupLayout.PREFERRED_SIZE, 61, GroupLayout.PREFERRED_SIZE)
 							.addGap(18)
 							.addComponent(jLabel3))
 						.addGroup(jPanel3Layout.createSequentialGroup()
@@ -192,12 +192,12 @@ public class cgUI extends javax.swing.JFrame implements IUnitLister,
 					.addGap(18)
 					.addGroup(jPanel3Layout.createParallelGroup(Alignment.TRAILING)
 						.addGroup(jPanel3Layout.createSequentialGroup()
-							.addComponent(jTextField2, GroupLayout.PREFERRED_SIZE, 59, GroupLayout.PREFERRED_SIZE)
+							.addComponent(jTextField2, GroupLayout.PREFERRED_SIZE, 61, GroupLayout.PREFERRED_SIZE)
 							.addGap(18)
 							.addComponent(jLabel4))
 						.addComponent(jButton2))
 					.addGap(18)
-					.addComponent(jTextField3, GroupLayout.PREFERRED_SIZE, 59, GroupLayout.PREFERRED_SIZE)
+					.addComponent(jTextField3, GroupLayout.PREFERRED_SIZE, 61, GroupLayout.PREFERRED_SIZE)
 					.addGap(15))
 		);
 		jPanel3Layout.setVerticalGroup(
@@ -221,7 +221,7 @@ public class cgUI extends javax.swing.JFrame implements IUnitLister,
 		jPanel4.setBorder(javax.swing.BorderFactory.createTitledBorder("Grade"));
 
 		jLabel5.setFont(new java.awt.Font("Tahoma", 0, 24)); // NOI18N
-		jLabel5.setForeground(new java.awt.Color(255, 255, 255));
+		jLabel5.setForeground(new java.awt.Color(249, 249, 249));
 		jLabel5.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
 		jLabel5.setText("grade");
 
@@ -240,7 +240,7 @@ public class cgUI extends javax.swing.JFrame implements IUnitLister,
 		
 		jlabel6 = new JLabel();
 		jlabel6.setText("Error message");
-		jlabel6.setForeground(Color.RED);
+		jlabel6.setForeground(Color.BLUE);
 		jlabel6.setFont(new Font("Tahoma", Font.PLAIN, 12));
 		jButton3 = new javax.swing.JButton();
 		
