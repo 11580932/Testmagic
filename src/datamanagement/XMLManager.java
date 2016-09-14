@@ -2,10 +2,14 @@ package datamanagement;
 
 import org.jdom.Document;
 import org.jdom.input.SAXBuilder;
+
 import java.io.FileWriter;
+
 import org.jdom.output.Format;
 import org.jdom.output.XMLOutputter;
+
 import java.io.IOException;
+
 import org.jdom.JDOMException;
 
 public class XMLManager {
@@ -50,7 +54,7 @@ throw new RuntimeException("DBMD: XMLManager : init : IOException");
     }
     
     public void saveDocument() {
-        String xmlfile = AppProperties.getInstance().getProperties().getProperty("XMLFILE");
+        String xmlfile = ((System) AppProperties.getInstance().getProperties()).getProperty("XMLFILE");
                 try (FileWriter fout = new FileWriter(xmlfile)) {
 XMLOutputter outputter = new XMLOutputter(Format.getPrettyFormat());
     outputter.output(doc, fout);
