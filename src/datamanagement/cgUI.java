@@ -135,7 +135,7 @@ public class cgUI extends javax.swing.JFrame implements IUnitLister,
 
 		jLabel3.setText("Asg2:");
 
-		jLabel4.setText("Exam scores:");
+		jLabel4.setText("Exam results:");
 
 		jTextField1.setEditable(false);
 		jTextField1.addKeyListener(new java.awt.event.KeyAdapter() {
@@ -199,7 +199,7 @@ public class cgUI extends javax.swing.JFrame implements IUnitLister,
 																				GroupLayout.PREFERRED_SIZE,
 																				61,
 																				GroupLayout.PREFERRED_SIZE)
-																		.addGap(18)
+																		.addGap(20)
 																		.addComponent(
 																				jLabel3))
 														.addGroup(
@@ -211,7 +211,7 @@ public class cgUI extends javax.swing.JFrame implements IUnitLister,
 																				GroupLayout.PREFERRED_SIZE,
 																				84,
 																				GroupLayout.PREFERRED_SIZE)))
-										.addGap(18)
+										.addGap(20)
 										.addGroup(
 												jPanel3Layout
 														.createParallelGroup(
@@ -224,11 +224,11 @@ public class cgUI extends javax.swing.JFrame implements IUnitLister,
 																				GroupLayout.PREFERRED_SIZE,
 																				61,
 																				GroupLayout.PREFERRED_SIZE)
-																		.addGap(18)
+																		.addGap(20)
 																		.addComponent(
 																				jLabel4))
 														.addComponent(jButton2))
-										.addGap(18)
+										.addGap(20)
 										.addComponent(jTextField3,
 												GroupLayout.PREFERRED_SIZE, 61,
 												GroupLayout.PREFERRED_SIZE)
@@ -295,7 +295,7 @@ public class cgUI extends javax.swing.JFrame implements IUnitLister,
 		jlabel6 = new JLabel();
 		jlabel6.setText("Error message");
 		jlabel6.setForeground(Color.BLUE);
-		jlabel6.setFont(new Font("Tahoma", Font.PLAIN, 12));
+		jlabel6.setFont(new Font("Tahoma", Font.BOLD, 12));
 		jButton3 = new javax.swing.JButton();
 
 		jButton3.setText("Save");
