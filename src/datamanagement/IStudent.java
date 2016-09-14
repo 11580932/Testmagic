@@ -10,8 +10,8 @@ public interface IStudent {
     public String getLastName();
     public void setLastName(String lastName);
 
-    public void addUnitRecord( IStudentUnitRecord record );
-    public IStudentUnitRecord getUnitRecord( String unitCode );
+    public void addUnitRecord( IStudentUnitRecord records );
+    public IStudentUnitRecord getUnitRecord( String unitCodes );
 
     public StudentUnitRecordList getUnitRecords();
 
