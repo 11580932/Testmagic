@@ -2,12 +2,12 @@ package datamanagement;
 
 public interface IStudent {
 
-    public Integer getID();
+    public Integer getID_();
 
-    public String getFirstName();
+    public String getFirstName_();
     public void setFirstName(String firstName);
 
-    public String getLastName();
+    public String getLastName_();
     public void setLastName(String lastName);
 
     public void addUnitRecord( IStudentUnitRecord records );
