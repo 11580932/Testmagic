@@ -55,7 +55,7 @@ public class XMLManager {
 	}
 
 	public void saveDocument() {
-		String xmlfile = ((System) AppProperties.getInstance().getProperties())
+		String xmlfile = System
 				.getProperty("XMLFILE");
 		try (FileWriter fout = new FileWriter(xmlfile)) {
 			XMLOutputter outputter = new XMLOutputter(Format.getPrettyFormat());
