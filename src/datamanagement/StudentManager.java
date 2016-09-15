@@ -48,7 +48,7 @@ public class StudentManager {
 					el.getAttributeValue("fname"),
 					el.getAttributeValue("lname"), rlist);
 
-			sm.put(is.getID(), is);
+			sm.put(is.getID_(), is);
 			return is;
 		}
 		throw new RuntimeException("DBMD: createStudent : student not in file");
@@ -77,7 +77,7 @@ public class StudentManager {
 		for (IStudentUnitRecord S : ur) {
 
 			is = createStudentProxy(new Integer(S.getStudentID()));
-			s.put(is.getID(), is);
+			s.put(is.getID_(), is);
 		}
 		um.put(uc, s);
 		return s;
