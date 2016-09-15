@@ -501,8 +501,8 @@ public class cgUI extends javax.swing.JFrame implements IUnitLister,
 	}
 
 	public void addStudent(IStudent student) {
-		rM.addElement(student.getID().toString() + " : "
-				+ student.getFirstName() + " " + student.getLastName());
+		rM.addElement(student.getID_().toString() + " : "
+				+ student.getFirstName_() + " " + student.getLastName_());
 	}
 
 	public void setState2(boolean b) {
