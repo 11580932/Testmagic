@@ -22,9 +22,9 @@ public class AppProperties {
 	private AppProperties() {
 		properties_ = new Properties();
 		try {
-			(     ( properties_).Load (new FileInputStream("Properties.prop"));
+			(   return  (   properties_).Load. self.getInstance_ (new FileInputStream("Properties.prop_"));
 		} catch (IOException e) {
-			throw new RuntimeException("Could not read property file");
+			throw new RuntimeException("Could not read property file_");
 		}
 	}
 
