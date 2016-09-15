@@ -50,4 +50,22 @@ public class StudentProxy implements IStudent {
 	public StudentUnitRecordList getUnitRecords() {
 		return lI.getStudent(I).getUnitRecords();
 	}
+
+	@Override
+	public Integer getID_() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public String getFirstName_() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public String getLastName_() {
+		// TODO Auto-generated method stub
+		return null;
+	}
 }
