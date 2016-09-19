@@ -40,12 +40,12 @@ public class UnitManager {
 				iu = new Unit(el.getAttributeValue("uid"),
 						el.getAttributeValue("name"), Float.valueOf(
 								el.getAttributeValue("ps")).floatValue(), Float
-								.valueOf(el.getAttributeValue("cr"))
+								.valueOf(el.getAttributeValue("Credit"))
 								.floatValue(), Float.valueOf(
-								el.getAttributeValue("di")).floatValue(), Float
+								el.getAttributeValue("Distinction")).floatValue(), Float
 								.valueOf(el.getAttributeValue("hd"))
 								.floatValue(), Float.valueOf(
-								el.getAttributeValue("ae")).floatValue(),
+								el.getAttributeValue("Additional Exam")).floatValue(),
 						Integer.valueOf(el.getAttributeValue("asg1wgt"))
 								.intValue(), Integer.valueOf(
 								el.getAttributeValue("asg2wgt")).intValue(),

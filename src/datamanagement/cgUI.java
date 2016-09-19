@@ -237,7 +237,7 @@ public class cgUI extends javax.swing.JFrame implements IUnitLister,
 		
 		jlabel6 = new JLabel();
 		jlabel6.setText("Error message");
-		jlabel6.setForeground(Color.RED);
+		jlabel6.setForeground(Color.BLUE);
 		jlabel6.setFont(new Font("Tahoma", Font.PLAIN, 12));
 		jButton3 = new javax.swing.JButton();
 		
