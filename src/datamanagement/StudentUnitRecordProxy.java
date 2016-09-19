@@ -7,8 +7,11 @@ public StudentUnitRecordProxy( Integer id, String code )
 {
 this.studentID = id;this.unitCode = code;
 this.mngr = StudentUnitRecordManager.instance();}
-public Integer getStudentID() { return studentID;}
-public String getUnitCode() { return unitCode; 
+public Integer getStudentID() {
+ return studentID;
+}
+public String getUnitCode() {
+ return unitCode; 
 }
 public void setAsg1(float mark) {
 mngr.getStudentUnitRecord( studentID, unitCode ).setAsg1(mark);}
