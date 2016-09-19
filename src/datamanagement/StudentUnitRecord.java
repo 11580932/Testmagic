@@ -9,9 +9,9 @@ public class StudentUnitRecord implements IStudentUnitRecord {
 			float exam) {
 		this.sid = id;
 		this.uc = code;
-		this.setAsg1(asg1);
-		this.setAsg2(asg2);
-		this.setExam(exam);
+		this.setAsg1(asg1 score);
+		this.setAsg2(asg2 score);
+		this.setExam(exam) score;
 	}
 
 	public Integer getStudentID() {
